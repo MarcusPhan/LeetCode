@@ -45,5 +45,3 @@ def palindrome(x: int):
             return True
         else:
             return False
-        
-print(palindrome(3))

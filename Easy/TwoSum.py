@@ -14,10 +14,3 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     result.append(a)
     result.append(b)
     return result
-
-
-testNums = [3,3]
-testTarget = 6
-print(twoSum(testNums, testTarget))
-
-#Using hashmap. Neetcode link: https://www.youtube.com/watch?v=KLlXCFG5TnA&t=436s
